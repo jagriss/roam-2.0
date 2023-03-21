@@ -1,7 +1,7 @@
 package com.roam.roaming.controllers;
 
 import com.roam.roaming.models.User;
-import com.roam.roaming.models.data.UserRepository;
+import com.roam.roaming.data.UserRepository;
 import com.roam.roaming.models.dto.LoginFormDTO;
 import com.roam.roaming.models.dto.RegisterFormDTO;
 import org.springframework.beans.factory.annotation.Autowired;

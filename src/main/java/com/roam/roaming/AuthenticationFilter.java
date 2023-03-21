@@ -2,7 +2,7 @@ package com.roam.roaming;
 
 import com.roam.roaming.controllers.AuthenticationController;
 import com.roam.roaming.models.User;
-import com.roam.roaming.models.data.UserRepository;
+import com.roam.roaming.data.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.HandlerInterceptor;
 

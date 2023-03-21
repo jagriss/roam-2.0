@@ -7,7 +7,7 @@ import java.util.Objects;
 @Table(name="wishlist", schema = "roam")
 public class WishList {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue
     @Column(name="id")
     private int id;
 

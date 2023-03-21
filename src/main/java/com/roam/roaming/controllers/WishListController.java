@@ -1,7 +1,7 @@
 package com.roam.roaming.controllers;
 
 import com.roam.roaming.models.WishList;
-import com.roam.roaming.models.data.WishListRepository;
+import com.roam.roaming.data.WishListRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Service;

@@ -10,12 +10,12 @@ import javax.validation.constraints.NotNull;
 @Entity
 @Table(name="users", schema = "roam")
 public class User extends AbstractEntity{
-    @NotNull
-    @Column(name="username", unique=true)
+//    @NotNull
+    @Column(name="username", nullable = false)
     private String username;
 
-    @NotNull
-    @Column(name="pw_hash")
+//    @NotNull
+    @Column(name="pw_hash", nullable = false)
     private String pwHash;
 
     private static final BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();

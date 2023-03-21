@@ -7,7 +7,7 @@ import java.util.Objects;
 @Table(name="travels", schema = "roam")
 public class Travels {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue
     @Column(name="id")
     private int id;
 

@@ -1,4 +1,4 @@
-package com.roam.roaming.models.data;
+package com.roam.roaming.data;
 
 import com.roam.roaming.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;

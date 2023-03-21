@@ -1,7 +1,7 @@
 package com.roam.roaming.controllers;
 
 import com.roam.roaming.models.Travels;
-import com.roam.roaming.models.data.TravelsRepository;
+import com.roam.roaming.data.TravelsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Service;
