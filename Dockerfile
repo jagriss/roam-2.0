@@ -1,5 +1,5 @@
 FROM maven:latest
 COPY . /roaming
 WORKDIR /roaming
-RUN mvn pom.xml package
+RUN mvn -f pom.xml clean install
 ENTRYPOINT ["java","RoamingApplication"]
