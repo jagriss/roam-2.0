@@ -13,8 +13,7 @@ WORKDIR /roaming
 
 COPY .mvn/ .mvn
 COPY mvnw pom.xml ./
-RUN ./mvnw
-#RUN ./mvnw dependency:resolve
+RUN ./mvnw dependency:resolve
 
 COPY src ./src
 
